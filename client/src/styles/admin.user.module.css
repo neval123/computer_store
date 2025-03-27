@@ -1,0 +1,232 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    vertical-align: auto;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+}
+
+.buttons button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #191970;
+    transition: background-color 0.5s, box-shadow 0.3s
+}
+
+
+.buttons button:hover {
+    background-color: #1F66CC;
+}
+
+
+.form {
+    width: 550px;
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+}
+
+.form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}
+.body label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+    margin-top: 10px;
+}
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="text"]{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2272FF;
+    border-radius: 10px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+.form textarea{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2272FF;
+    border-radius: 10px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+.body input[type="email"],
+.body input[type="password"],
+.body input[type="text"]{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2272FF;
+    border-radius: 10px;
+    font-size: 16px;
+    flex-grow: 1;
+    width: 100%;
+}
+.body h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form button[type="submit"] {
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #191970;
+    transition: background-color 0.5s, box-shadow 0.3s;
+}
+
+.form button[type="submit"]:hover {
+    background-color: #1F66CC;
+}
+.formRow {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.body select{
+    font-family: var(--font-mono);
+    height: 100px;
+    width: 100px;
+    background-color: #333;
+    padding-left: 5px;
+    margin-left: 5px;
+    border: 1px solid #191970;
+    border-radius: 4px;
+}
+.body table thead th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+.acceptButton:hover{
+    background-color: #14f507;
+}
+
+.body button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.5s, box-shadow 0.3s
+}
+
+.body button:hover {
+    background-color: #3b3a3a;
+}
+
+.body table tbody tr:nth-child(odd) {
+    background-color: #191970;
+}
+
+.body table tbody tr:nth-child(even) {
+    background-color: #3030ad;
+}
+.body button[type="submit"]:hover {
+    background-color: #1F66CC;
+}
+.body table{
+    margin:20px;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+.body table td{
+    border-right: 4px solid #333;
+    padding: 10px;
+
+}
+.body table td:last-child {
+    border-right: none;
+}
+/*.body table, .body th, .body td {
+    border: 6px solid #191970;
+}*/
+
+.formRow {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.checkBoxContainer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: left;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+.body .acceptButton {
+    background-color: #0f4d03;
+    color: white;
+}
+.body .basicButton {
+    background-color: #191970;
+    color: white;
+}
+.body .basicButton:hover {
+    background-color: #1F66CC;
+    color: white;
+}
+.body .acceptButton:hover {
+    background-color: green;
+    color: white;
+}
+.body .cancelButton {
+    background-color: #610606;
+    color: white;
+}
+.body .cancelButton:hover {
+    background-color: #a40707;
+    color: white;
+}
+.paginationContainer {
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 10px;
+}
+.form .centeredButton{
+    justify-content: center;
+}

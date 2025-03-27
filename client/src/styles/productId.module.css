@@ -1,0 +1,123 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    vertical-align: auto;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+}
+
+.buttons button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #191970;
+    transition: background-color 0.5s, box-shadow 0.3s
+}
+
+
+.buttons button:hover {
+    background-color: #1F66CC;
+}
+.productContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.imageContainer {
+    flex: 1;
+    padding: 10px;
+}
+
+.infoContainer {
+    flex: 2;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.priceAmountContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 50px;
+}
+.body select{
+    font-family: var(--font-mono);
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    background-color: #333;
+    padding-left: 5px;
+    margin-left: 5px;
+    border: 1px solid #191970;
+    border-radius: 4px;
+}
+.body input[type="email"],
+.body input[type="password"],
+.body input[type="text"]{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2272FF;
+    border-radius: 10px;
+    font-size: 16px;
+    flex-grow: 1;
+    width: 100%;
+}
+.body label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+    margin-top: 10px;
+}
+
+.body .basicButton {
+    background-color: #191970;
+    color: white;
+}
+.body .basicButton:hover {
+    background-color: #1F66CC;
+    color: white;
+}
+.priceAmountContainer p{
+    font-size: 24px;
+}
+.body button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.5s, box-shadow 0.3s
+}
+.body .productDescription{
+    width: 600px;
+}
+.body input{
+    background-color: #333;
+    border: 1px solid #191970;
+    border-radius: 4px;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    color: white;
+}

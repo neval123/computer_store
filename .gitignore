@@ -1,0 +1,83 @@
+# Dependencies
+/**/node_modules
+/**/.pnp
+/**/.pnp.*
+/**/.yarn/*
+!/**/.yarn/patches
+!/**/.yarn/plugins
+!/**/.yarn/releases
+!/**/.yarn/versions
+
+# Build outputs
+/**/build/
+/**/out/
+/**/dist/
+/**/nbbuild/
+/**/nbdist/
+/**/.nb-gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Testing
+/**/coverage
+
+# Next.js specific (client)
+/client/.next/
+/client/out/
+/**/*.tsbuildinfo
+/**/next-env.d.ts
+/**/pnpm-lock.yaml
+
+# IDE and Editor files
+/**/.idea/
+/**/*.iws
+/**/*.iml
+/**/*.ipr
+/**/.vscode/
+/**/.project
+/**/.classpath
+/**/.settings/
+/**/.springBeans
+/**/.sts4-cache
+/**/.apt_generated
+/**/.factorypath
+/**/nbproject/private/
+
+# Gradle specific (server)
+/server/.gradle
+/server/build/
+!/server/gradle/wrapper/gradle-wrapper.jar
+/**/bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# Debug logs
+/**/*debug.log*
+/**/*.log
+/**/npm-debug.log*
+/**/yarn-debug.log*
+/**/yarn-error.log*
+
+# Environment and secrets
+/**/.env*
+
+# OS specific
+/**/.DS_Store
+/**/*.pem
+
+# Documentation
+/**/HELP.md
+
+# Deployment
+/**/.vercel
+
+# Ignore the .gitignore files in subdirectories
+/client/.gitignore
+/server/.gitignore
+
+/**/*.sql
+/**/*.jpg
+/**/*.png
+/**/*.jpeg

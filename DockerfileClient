@@ -1,0 +1,15 @@
+FROM node:18-alpine
+
+WORKDIR /client
+
+COPY client/package.json client/package-lock.json ./
+
+RUN npm install --legacy-peer-deps
+
+COPY client/. .
+
+RUN npm run build
+
+EXPOSE 3000
+
+CMD ["npm", "run", "dev"]
